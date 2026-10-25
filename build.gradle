@@ -1,0 +1,17 @@
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:9.3.3"
+    }
+}
+
+def generatedBuildRoot = file("${System.getProperty("user.home")}/.gradle/pocketpulse-generated-build")
+
+allprojects {
+    def safeProjectPath = path == ":" ? "root" : path.substring(1).replace(":", "_")
+    layout.buildDirectory.set(file("${generatedBuildRoot}/${safeProjectPath}"))
+}
+

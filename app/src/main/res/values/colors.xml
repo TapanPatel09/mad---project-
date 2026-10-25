@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="navy">#12324A</color>
+    <color name="navy_dark">#0B2233</color>
+    <color name="mint">#34C6A3</color>
+    <color name="mint_dark">#15977B</color>
+    <color name="screen_bg">#F4F8FA</color>
+    <color name="card_bg">#FFFFFF</color>
+    <color name="text_dark">#17212B</color>
+    <color name="text_muted">#667581</color>
+    <color name="danger">#D64545</color>
+    <color name="warning">#B7791F</color>
+</resources>

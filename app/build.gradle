@@ -1,0 +1,14 @@
+apply plugin: "com.android.application"
+
+android {
+    namespace "com.example.pocketpulse"
+    compileSdk 36
+
+    defaultConfig {
+        applicationId "com.example.pocketpulse"
+        minSdk 23
+        targetSdk 36
+        versionCode 1
+        versionName "1.0"
+    }
+}
